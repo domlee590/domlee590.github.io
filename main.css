@@ -1,0 +1,73 @@
+﻿body {
+    margin: 0px;
+}
+
+h1 {
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: lightskyblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+table, td, th {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.menu {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    background-color: lightskyblue;
+    border: 1px solid red;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 8px;
+    font-size: 18px;
+}
+
+    .menu-item:hover {
+        background-color: lightskyblue;
+        cursor: pointer;
+    }
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.outside {
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    top: 0;
+}
+
+.dropdown {
+    display: none;
+}
+
+.menu-item:hover .dropdown {
+    display: block;
+    height: 25px;
+    width: 100px;
+    background-color: lightsteelblue;
+    position: absolute;
+    top: 40px;
+}
+
+.dropdown-item:hover {
+    background-color: cadetblue;
+}
